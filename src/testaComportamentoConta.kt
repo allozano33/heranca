@@ -1,6 +1,4 @@
 fun testaComportamentoConta() {
-    println("Bem vindo ao Bytebank")
-
     val contaAlex = Conta(titular = "Alex", numero = 1000)
     contaAlex.deposita(200.0)
 
